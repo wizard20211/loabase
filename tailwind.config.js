@@ -5,7 +5,11 @@ export default {
       "./src/**/*.{js,jsx,ts,tsx}",  // 이게 꼭 있어야 Tailwind가 작동함
     ],
     theme: {
-      extend: {},
+      extend: {
+        fontFamily: {
+          sans: ['"Pretendard Variable"', 'sans-serif'],
+        },
+      },
     },
     plugins: [],
   };
